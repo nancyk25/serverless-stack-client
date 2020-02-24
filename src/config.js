@@ -1,7 +1,9 @@
 export default {
+    MAX_ATTACHMENT_SIZE: 5000000,
+    STRIPE_KEY: "pk_test_RkzuVnVuEQMDXBLHWNHraO3d00LYWqXUAX",
     s3: {
       REGION: "us-east-2",
-      BUCKET: "nancys-notes-app-uploads"
+      BUCKET: "nancys-notes-app-uploads2"
     },
     apiGateway: {
       REGION: "us-east-2",
